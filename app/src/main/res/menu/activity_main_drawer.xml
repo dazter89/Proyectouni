@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title= "Maestria y Postgrado">
+        <menu>
+
+        <item
+
+            android:id="@+id/Conocenos"
+            android:title="Conócenos" />
+
+        <item
+            android:id="@+id/Requisitos"
+            android:title="Requisitos" />
+
+        </menu>
+
+            <group android:checkableBehavior="single">
+                <item android:title="Plan de Estudio por Facultad">
+                    <menu>
+        <item
+            android:id="@+id/Faccienytec"
+            android:icon="@drawable/aaciencias"
+            android:title="Ciencias y Tecnología" />
+
+
+        <item
+            android:id="@+id/ingcivil"
+            android:icon="@drawable/aingcivillogo"
+            android:title="Ingeniería Civil" />
+
+         <item
+             android:title="Ingeniería Eléctrica"
+             android:icon="@drawable/aingelectricalogo"
+             android:id="@+id/ingelect"/>
+
+                        <item
+                            android:title="Ingeniería Industrial"
+                            android:icon="@drawable/aindustriallogo"
+                            android:id="@+id/ingindustrial"/>
+                        <item
+                            android:title="Ingeniería Mecánica"
+                            android:icon="@drawable/aingmecanicalogo"
+                            android:id="@+id/ingmec"/>
+                        <item
+                            android:title="Ingeniería de Sistemas C."
+
+
+                            android:icon="@mipmap/alogofisc"
+                            android:id="@+id/ingsis"/>
+                        <item
+                            android:title="Contáctenos"
+                            android:icon="@drawable/ic_menu_share"
+                            android:id="@+id/correo"/>
+
+
+        </menu>
+
+        </item>
+    </group>
+
+
+
+    </item>
+    </group>
+
+
+</menu>
+
